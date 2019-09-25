@@ -1,0 +1,2 @@
+# AuthAmple
+Auth with bcrypt
