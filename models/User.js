@@ -27,6 +27,8 @@ module.exports = function(sequelize, Datatypes) {
             required: true,
             len: [2, 10]
         }
+    }, {
+        timestamps: false
     });
 
     User.generateHash = password => bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);

@@ -6,6 +6,10 @@ module.exports = function(app) {
     app.get("/", (req, res) => {
         // res.contentType("html");
         res.render("index");
+    });
+
+    app.get("/home", (req, res) => {
+        res.render("home");
     })
 
 

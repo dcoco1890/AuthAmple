@@ -6,8 +6,11 @@
     <div class="col-md-6" style="margin: auto 0">
 
         <form action="POST" id="login">
-        <label for="uname">uname<input type="text" id="uname" name="user" maxlength="20"></label>
-        <label for="pass">pass<input type="text" id="pass" name="user" maxlength="20"></label>
+        <label for="uname">uname<input type="text" id="uname" name="user" maxlength="20" required></label>
+        <label for="pass">pass<input type="text" id="pass" name="user" maxlength="20" required></label>
+        <label for="email">email<input type="email" id="email" name="user" required></label>
+        <button class="btn btn-danger" type="submit" id="log-in">Log</button>
+
         </form> 
 
     </div>

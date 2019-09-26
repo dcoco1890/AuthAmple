@@ -7,8 +7,6 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 
 var db = require("./models");
-// static files
-
 
 // Parse application body as JSON
 app.use(express.urlencoded({ extended: true }));
