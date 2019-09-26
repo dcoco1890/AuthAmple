@@ -1,0 +1,32 @@
+{
+  "name": "authample",
+  "version": "1.0.0",
+  "description": "Auth with bcrypt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcoco1890/AuthAmple.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcoco1890/AuthAmple/issues"
+  },
+  "homepage": "https://github.com/dcoco1890/AuthAmple#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.19.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
